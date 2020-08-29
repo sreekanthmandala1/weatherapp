@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GridoneComponent } from './gridone.component';
+import { GridOneComponent } from './grid-one.component';
 
-describe('GridoneComponent', () => {
-  let component: GridoneComponent;
-  let fixture: ComponentFixture<GridoneComponent>;
+describe('GridOneComponent', () => {
+  let component: GridOneComponent;
+  let fixture: ComponentFixture<GridOneComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GridoneComponent ]
+      declarations: [ GridOneComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(GridoneComponent);
+    fixture = TestBed.createComponent(GridOneComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
